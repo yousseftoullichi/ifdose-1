@@ -25,7 +25,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/profile','HomeController@afficherUser')->name('afficherUser');
+Route::get('/profile','HomeController@afficherMed')->name('afficherMed');
 Route::get('/admin','HomeController@afficherUser');
 Route::post('/profile','HomeController@postMed')->name('postMed');
 Route::get('/home', 'HomeController@index')->name('home');
