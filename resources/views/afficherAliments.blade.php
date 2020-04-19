@@ -110,7 +110,7 @@
                                         </td>
                                         <td style="width: 40px; overflow: auto; text-align: center"><span class="badge bg-gray">{{$aliment -> id}}</span></td>
                                         <td style="width: 40px; overflow: auto; text-align: center"><span class="badge bg-gray">
-                                            <img  width="100px" hight="100px" src="/images/{{$aliment -> id}}.jpg"></span>
+                                            <img  width="100px" hight="100px" src="/images/{{$aliment -> id}}.png"></span>
                                         </td>
                                     </tr>
                                     

@@ -177,7 +177,7 @@ class HomeController extends Controller
 
         $aliments = Aliment::all() ;
         $images = im::all() ;
-        $extention=$file->getClientOriginalExtension();
+        $extention="png";
         $filename=$aliment->id.'.'.$extention;
         $file->move('images/',$filename);
 
