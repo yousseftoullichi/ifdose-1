@@ -15,7 +15,11 @@
             /* required to properly style form
                elements on WebKit based browsers */
             -webkit-appearance: none;
+<<<<<<< HEAD
             color: green;
+=======
+
+>>>>>>> parent of c25ccaf... Update addAliment.blade.php
             width : 100%;
             border: 1px solid #333;
             margin: 0;
