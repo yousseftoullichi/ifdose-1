@@ -15,7 +15,7 @@
             /* required to properly style form
                elements on WebKit based browsers */
             -webkit-appearance: none;
-
+            color :red;
             width : 100%;
             border: 1px solid #333;
             margin: 0;
